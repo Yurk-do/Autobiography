@@ -1,0 +1,26 @@
+body {
+    font-size: 30px;
+    border: 1px none red;
+}
+h1 {text-align: center;
+color: rgb(12, 12, 82);}
+#title-first-section {
+    text-align: center;
+}
+div {color: darkgreen;}
+h2 {color: chocolate;}
+h3 {color: darkred;}
+.morda {
+border: 1px none blue;
+float: left;
+margin: 10px 30px 30px 10px;
+}
+.link {
+    text-align: center;
+}
+
+}
+.main-text {
+border: 1px none blue;
+
+}
