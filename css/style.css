@@ -4,23 +4,27 @@ body {
     border: 1px none red;
     background-color: cornflowerblue;
     }
-h1 {color: rgb(12, 12, 82);
+h1 {color: rgb(30, 55, 94);
     text-align: center;
     text-transform: uppercase;
-}
-h2,h3 {
-    color: rgb(72, 72, 85);
     }
+.name-part1 {
+    color: rgb(72, 72, 85);
+    padding-left: 194px;
+    }
+.name-part2 {
+    color: rgb(72, 72, 85);
+}
+.name-part3 {
+    color: rgb(72, 72, 85);
+}
 .top-div {
     margin-left: 200px;
     margin-right: 200px;
     padding: 20px;
-    background-color: darkcyan;
-    border: 10px linen red;
-}
-.name_part1 {
-    padding-left: 194px;
-}
+    background-color: rgb(128, 194, 194);
+    border: 10px double rgb(153, 194, 194);
+    }
 .morda {
 float: left;
 margin-right: 30px;
@@ -31,8 +35,11 @@ padding-right: 100 px;
 text-align: justify;
 }
 .link {
+    text-decoration: none;
+}
+.link-img {
     width: 50px;
     height: 50px;
-    
     vertical-align: middle;
+    text-decoration: none;
 }
