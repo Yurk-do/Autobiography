@@ -7,16 +7,16 @@ body {
 h1 {color: rgb(30, 55, 94);
     text-align: center;
     text-transform: uppercase;
+    text-decoration: underline;
     }
 .name-part1 {
     color: rgb(72, 72, 85);
     padding-left: 194px;
+    text-decoration: underline;
     }
-.name-part2 {
+.name-part2, .name-part3 {
     color: rgb(72, 72, 85);
-}
-.name-part3 {
-    color: rgb(72, 72, 85);
+    text-decoration: underline;
 }
 .top-div {
     margin-left: 200px;
@@ -26,13 +26,19 @@ h1 {color: rgb(30, 55, 94);
     border: 10px double rgb(153, 194, 194);
     }
 .morda {
-float: left;
-margin-right: 30px;
+    float: left;
+    margin-right: 30px;
 }
 .main-text {
-border: 10px linen red;
-padding-right: 100 px;
-text-align: justify;
+    border: 10px dashed red;
+    padding-right: 100 px;
+    text-align: justify;
+}
+.skills {
+    list-style-image: url(../img/icons-skills.png);
+}
+.jobs {
+    list-style-image: url(../img/icons-job.png);
 }
 .link {
     text-decoration: none;
@@ -41,5 +47,4 @@ text-align: justify;
     width: 50px;
     height: 50px;
     vertical-align: middle;
-    text-decoration: none;
-}
+    }
