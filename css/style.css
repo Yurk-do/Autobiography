@@ -1,39 +1,74 @@
 body {
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
-    border: 1px none red;
-    background-color: cornflowerblue;
+    background-color: rgb(81, 81, 214);
+    margin: 0px;
     }
-#document-title {
-    color: rgb(30, 55, 94);
+#header {   
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     text-align: center;
-    vertical-align: top;
-    padding-top: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 14px;
+    padding-top: 20px;
     }
-.bordered {
-    border-style: outset;
+#nav {
+    float: left;
+    width: 200px;
+    height: 420px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    overflow-y: auto;
+    background-color: rgb(7, 47, 102);
+    margin-top: 130px;
+    }
+#main-title {
+    margin: 0px;
 }
-#top-div {
-    margin: 0px 200px 0px 200px;
-    background-color: rgb(128, 194, 194);
-    padding:0px 20px 10px 20px;
+#other-information {
+    float: right;
+    width: 400px;    
+    text-align: justify;  
+    padding-right: 10px;
+    padding-left: 40px;
+    overflow-y: auto;
+}   
+#content {
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-left: 200px;
+    margin-right: 400px;
+    overflow-y: auto;
     }
-.name-part1 {
-    color: rgb(72, 72, 85);
-    padding-left: 194px;
-    }
-.name-part2 {
-    color: rgb(72, 72, 85);
-    margin-top: 0px;
-    }
-.name-part3 {
-    margin-top: 0px;
+#footer {
+    clear: both;
+    padding-top: 80px;
+    padding-bottom: 9px;
+    text-align: center;
+}
+img[data-menu-img] {
+    height: 100px;
+    width: 220px;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+}
+h2 {
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
     text-align: center;
     }
+.height-blocks {
+    height: 550px;
+}
+p[data-align] {
+    text-align: justify;
+}
+.border-for-li {
+    border-style: inset;
+}
 .morda {
     float: left;
     margin-right: 30px;
+    margin-top: 30px;
 }
 .skills {
     list-style-image: url(../img/icons-skills.png);
@@ -49,23 +84,8 @@ img[data-link-img] {
     height: 50px;
     vertical-align: middle;
     }
-.firstblock {
-    overflow: auto;
-    float: left;
-    width: 45%;
-    padding: 0px 20px 0px 20px;   
-        }
-.secondblock {
-    overflow: auto;
-    float: right;
-    width: 45%;
-    padding: 0px 20px 0px 20px;
-    }
-div:hover {
-    background-color: white;
+.item-menu:hover {
+    background-color: yellow;
 }
-div:last-child {
-    clear: both;
-    color: rgb(38, 38, 70);
-    padding: 10px 20px 10px 20px;
-}
+
+
