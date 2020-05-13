@@ -1,7 +1,7 @@
 body {
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(81, 81, 214);
+    background-color: rgb(7, 47, 102);
     margin: 0px;
     }
 #header {   
@@ -15,11 +15,11 @@ body {
     width: 200px;
     height: 420px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 30px;
     text-align: justify;
     overflow-y: auto;
-    background-color: rgb(7, 47, 102);
     margin-top: 130px;
+    margin-right: 10px;
     }
 #other-information {
     float: right;
@@ -28,13 +28,16 @@ body {
     padding-right: 10px;
     padding-left: 40px;
     overflow-y: auto;
-}   
+    border-radius: 5px;
+    margin-left: 10px;
+    }   
 #content {
     padding-left: 40px;
     padding-right: 10px;
     margin-left: 200px;
     margin-right: 400px;
     overflow-y: auto;
+    border-radius: 5px;
     }
 #footer {
     clear: both;
@@ -44,17 +47,17 @@ body {
 }
 h1 {
     margin: 0px;
-}
+   }
 img[data-menu-img] {
-    height: 100px;
-    width: 220px;
     position: absolute;
-    left: 0px;
+    left: 80px;
     top: 120px;
 }
 h2 {
     text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
     text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #7a7a7a;
     }
 .name-section {
     background-color: rgb(33, 33, 104)
@@ -90,5 +93,7 @@ img[data-link-img] {
 .item-menu:hover {
     background-color: yellow;
 }
-
+.shadow-for-blocks {
+    box-shadow: 0 0 20px #7a7a7a;
+}
 
